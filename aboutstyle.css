@@ -1,0 +1,52 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+
+/* Start Navbar Banner */
+
+nav .navbar {
+    background: 0 0;
+    opacity: 0 !important;
+    display: fixed;
+    font-family: Helvetica, Arial, sans-serif;
+}
+
+.navbar-brand img {
+    height: 80px;
+    width: auto;
+}
+
+.navbar ul li a {
+    color: #ffffff;
+}
+
+.navbar ul li a.active,
+.navbar ul li a:hover {
+    border-bottom: 2px solid #ac4230;
+    color: #ffffff !important;
+}
+/* End Navbar Banner */
+
+/* Start Banner */
+
+.banner {
+    background-image: url(https://tinyhorse.com/wp-content/uploads/2019/04/tiny-horse-marketing-strategies.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    overflow: hidden;
+    min-height: 970px;
+    margin-top: -120px;
+    padding-top: 100px;
+}
+
+main .banner h1 {
+    color: #ffffff;
+    font-family: 'EB Garamond', serif;
+    font-size: 60px;
+    line-height: 1.5 !important;
+    opacity: .85;
+    padding-top: 140px;
+}
