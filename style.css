@@ -72,3 +72,90 @@ main .carousel-logos .carousel-inner img {
     max-height: 150px;
 }
 
+/* Start 3 divisions */
+
+.three-divisions {
+    padding: 50px 0;
+    color: #212326;
+    text-align: center;
+    background-color: #f4eae9;
+}
+
+.three-divisions h2 {
+    padding: 24px 0;
+    margin: 0 0 10px;
+}
+
+.three-divisions h2 {
+    font-family: 'EB Garamond', serif;
+}
+
+.three-divisions .division-button {
+    color: #212326;
+    border: 1px solid #212326;
+    margin: 0 0 10px;
+}
+
+.three-divisions a {
+    text-decoration: none;
+}
+
+.three-divisions p {
+    font-size: 14px;
+}
+
+/* End 3 divisions */
+
+/* Start Testimonials */
+
+.testimonials {
+    padding: 6em 0;
+}
+
+.testimonials p span {
+    font-family: 'EB Garamond', serif;
+    line-height: 2;
+    font-size: 25px;
+    margin-bottom: 1em;
+}
+
+.testimonials .quote-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 1em 0;
+    padding-left: 6%;
+}
+
+/* End Testimonials */
+
+/*  Start Contact Us */
+
+.contact-us {
+    background-repeat: no-repeat;
+    background-image: url(https://sp-ao.shortpixel.ai/client/q_lossy,ret_img/https://tinyhorse.com/wp-content/uploads/2019/04/Tiny-Horse-Marketing-Agency-Contact.jpg);
+    background-attachment: scroll;
+    background-position: center center;
+}
+
+.contact-us .container {
+    padding: 50px 0;
+    color: #ffffff;
+}
+
+.contact-us .container h4 {
+    font-size: 14px;
+}
+
+.contact-us .container p {
+    margin: .85em 0;
+    font-family: 'EB Garamond', serif;
+    font-size: 40px;
+}
+
+.contact-us .container p a {
+    color: #ffffff;
+    text-decoration: none !important;
+}
+
+/*  End Contact Us */
