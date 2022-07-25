@@ -159,3 +159,34 @@ main .carousel-logos .carousel-inner img {
 }
 
 /*  End Contact Us */
+
+@media (max-width: 545px) {
+    .banner {
+        min-height: 680px;
+        margin-top: -200px;
+        padding-top: 80px;
+    }
+
+    main .banner h1 {
+        font-size: 30px;
+    }
+
+    nav.navbar {
+        background-color: #212326;
+        color: #ffffff;
+    }
+
+    nav.navbar .navbar-toggler.collapsed {
+        color: #ffffff;
+    }
+
+    .navbar ul {
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+
+    .contact-us .container {
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+}
