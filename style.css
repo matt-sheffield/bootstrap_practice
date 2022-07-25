@@ -43,7 +43,7 @@ nav .navbar {
     min-height: 970px;
     margin-top: -120px;
     padding-top: 80px;
-    
+
 }
 
 main .banner h1 {
@@ -60,6 +60,7 @@ main .carousel-logos {
     background-image: url(https://sp-ao.shortpixel.ai/client/q_lossy,ret_img/https://tinyhorse.com/wp-content/uploads/2019/04/Tiny-Horse-Agency-Gradient.jpg);
     background-attachment: scroll;
     background-position: center center;
+    background-size: cover;
 }
 
 main .carousel-logos .carousel-inner {
@@ -136,6 +137,7 @@ main .carousel-logos .carousel-inner img {
     background-image: url(https://sp-ao.shortpixel.ai/client/q_lossy,ret_img/https://tinyhorse.com/wp-content/uploads/2019/04/Tiny-Horse-Marketing-Agency-Contact.jpg);
     background-attachment: scroll;
     background-position: center center;
+    background-size: cover;
 }
 
 .contact-us .container {
