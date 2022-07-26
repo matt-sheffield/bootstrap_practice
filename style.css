@@ -18,6 +18,10 @@ nav .navbar {
     width: auto;
 }
 
+.navbar ul li {
+    margin: 0 5px 0 5px;
+}
+
 .navbar ul li a {
     color: #ffffff;
 }
@@ -191,4 +195,100 @@ main .carousel-logos .carousel-inner img {
         padding-left: 20px;
         padding-right: 20px;
     }
+}
+
+.aboutbanner {
+    background-image: url(https://tinyhorse.com/wp-content/uploads/2019/04/tiny-horse-marketing-strategies.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: bottom;
+    overflow: hidden;
+    margin-top: -120px;
+    padding-top: 80px;
+    height: 1280px;
+}
+
+.aboutbanner h1 {
+    color: #ffffff;
+    font-family: 'EB Garamond', serif;
+    font-size: 85px;
+    line-height: 1.5 !important;
+    opacity: .85;
+    padding-top: 140px;
+    margin-left: -60px;
+}
+
+.aboutsection {
+    height: 55px;
+    opacity: .95;
+    background: #9F6D70;
+    background: linear-gradient(to right, #547D93, #9F6D70, #E05B48);
+}
+
+.aboutus {
+    background-color: #F4EAE9;
+}
+
+.aboutus .container {
+    padding: 60px 5px 60px 5px;
+}
+
+.aboutus .text {
+    padding: 20px 0 0 0;
+}
+
+.aboutus h3 {
+    font-size: 15px;
+    font-family: Helvetica, Arial, sans-serif;
+}
+
+.aboutus p {
+    font-size: 27px;
+    font-family: 'Ibarra Real Nova', serif;
+}
+
+.four-divisions {
+    margin: 60px 40px 60px 40px;
+}
+
+.four-divisions .container {
+    border-bottom: 4px solid transparent;
+}
+
+.four-divisions h1 {
+    font-family: 'Ibarra Real Nova', serif;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.four-divisions .container h2 {
+    font-family: 'Ibarra Real Nova', serif;
+    margin: 0 0 50px 0; 
+    font-weight: bold;
+}
+
+.four-divisions .container p {
+    font-size: 15px;
+    padding-right: 30px;
+    font-weight: normal;
+}
+
+.four-divisions .container .founder h1 {
+    padding-bottom: 30px;
+}
+
+.four-divisions .container a {
+    text-decoration: underline;
+    color: black;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.four-divisions .container a:hover {
+    color: black;
+}
+
+.four-divisions .container img {
+    border-radius: 50%;
+    padding-bottom: 40px;
 }
