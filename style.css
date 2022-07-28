@@ -161,6 +161,54 @@ main .carousel-logos .carousel-inner img {
 }
 
 /*  End Contact Us */
+/*  Start Footer */
+footer {
+    background-color: #212326;
+    min-height: 350px;
+    padding: 30px;
+}
+
+footer img {
+    max-width: 200px;
+    height: auto;
+    display: block;
+}
+
+footer p {
+    color: #ffffff;
+    font-size: 14px;
+}
+
+footer p a {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+footer .column-2,
+footer .column-3 {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    min-height: 250px;
+    padding-top: 30px;
+}
+
+footer .copyright p {
+    font-family: 'EB Garamond', serif;
+    font-size: 11px;
+    color: #5c7c91;
+}
+
+footer .copyright a {
+    color: #5c7c91;
+}
+
+footer .copyright a:hover {
+    color: #ce6451;
+}
+
+
+/*  End Footer */
 
 @media (max-width: 545px) {
     .banner {
@@ -190,5 +238,14 @@ main .carousel-logos .carousel-inner img {
     .contact-us .container {
         padding-left: 20px;
         padding-right: 20px;
+    }
+
+    footer .column-2,
+    footer .column-3 {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        min-height: unset;
+        padding-top: 30px;
     }
 }
